@@ -15,5 +15,3 @@ __pycache__/
 *.log
 *.tmp
 
-# Ignore image files if unnecessary
-*.png
