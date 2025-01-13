@@ -1,0 +1,30 @@
+########## Project Title: Flatmates Bill Generator ##########
+########## Description: ##########
+
+An app that accepts input:
+- total bill amount for a time period
+- amount of days each flatmate has stayed
+
+Returns:
+ - how much each flatmate owes for that time period.
+ - generates pdf report
+
+ PDF:
+ - Each flatmate name
+ - Time period
+ - How much each flatmate owes for that time period.
+
+ ########## Objects Required ##########
+- Bill
+    - total amount
+    - time period
+
+- Flatmate
+    - name
+    - days in property in time period
+    - pays()
+
+- PDF Report
+    - filename
+    - generate()
+
